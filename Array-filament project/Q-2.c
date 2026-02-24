@@ -9,14 +9,14 @@ int main()
     printf("Enter any string: ");
     scanf("%s", str);
 
-    for(i = 0; str[i] != '\0'; i++)
+    for(i=0;str[i] != '\0';i++)
     {
         count[str[i]]++;
     }
 
     printf("\nFrequency of each character:\n");
     
-    for(i = 0; i < 256; i++)
+    for(i=0;i<256;i++)
     {
         if(count[i] != 0)
         {
